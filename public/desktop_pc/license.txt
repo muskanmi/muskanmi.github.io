@@ -1,0 +1,11 @@
+Model Information:
+* title:	Bamberly
+* source:	https://sketchfab.com/3d-models/bamberly-4e6ae8b10a1e4a18a1ab7d5672c29eb6
+* author:	Matt (https://sketchfab.com/ItsThatRandomDudeXD)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Bamberly" (https://sketchfab.com/3d-models/bamberly-4e6ae8b10a1e4a18a1ab7d5672c29eb6) by Matt (https://sketchfab.com/ItsThatRandomDudeXD) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
