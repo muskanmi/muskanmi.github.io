@@ -183,7 +183,7 @@ const testimonials = [
     designation: "Issued",
     company: "Udemy",
     image: udemy,
-    url: "https://udemy.com",
+    url: "https://www.udemy.com/certificate/UC-476c3bd9-755c-43f0-a471-b433d6a680a0/",
     course: javascriptCourse,
   },
   {
@@ -191,7 +191,7 @@ const testimonials = [
     designation: "Issued",
     company: "Udemy",
     image: udemy,
-    url: "https://udemy.com",
+    url: "https://www.udemy.com/certificate/UC-9b5bca4e-d2c3-4f3e-bb54-fa4325b62754/",
     course: dsa,
   },
   {
@@ -201,7 +201,7 @@ const testimonials = [
     image: coursera,
     url: "https://coursera.org",
     course: javascriptCourse,
-  },
+  }
 ];
 
 const projects = [

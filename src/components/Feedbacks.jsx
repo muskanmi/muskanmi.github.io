@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import "../index.css";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -23,31 +23,28 @@ const FeedbackCard = ({
     {/* <p className='text-white font-black text-[48px]'>"</p> */}
 
     <div className='mt-1'>
-      <img src={course} alt="not" />
+      <img className="onImg-hover" src={course} alt="not" />
       {/* <p className='text-white tracking-wider text-[18px]'>{testimonial}</p> */}
 
-      <div className='mt-7 flex justify-between items-center gap-1'>
-        <div className='flex-1 flex flex-col'>
-          <p className='text-white font-medium text-[16px]'>
-            <span className='blue-text-gradient'>@</span> {name}
-          </p>
-          <p className='mt-1 text-secondary text-[12px]'>
-            {designation} by {company}
-          </p>
-        </div>
-
-        <a href={url} target={"_blank"}>
+      <a href={url} target={"_blank"}>
+        <div className='mt-7 flex justify-between items-center gap-1'>
+          <div className='flex-1 flex flex-col'>
+            <p className='text-white font-medium text-[16px]'>
+              <span className='blue-text-gradient'>@</span> {name}
+            </p>
+            <p className='mt-1 text-secondary text-[12px]'>
+              {designation} by {company}
+            </p>
+          </div>
           <img
             src={image}
             alt={`feedback_by-${name}`}
             className='w-10 h-10 rounded-full object-cover'
           />
-        </a>
-      </div>
+        </div>
+      </a>
     </div>
   </motion.div>
-
-  
 );
 
 const Feedbacks = () => {
