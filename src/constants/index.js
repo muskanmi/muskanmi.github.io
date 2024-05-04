@@ -218,6 +218,64 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Admin Dashboard",
+    description:
+      "A React based Admin Dashboard app using Real time Data, Charts, Events, MongoDB, CRM and more.",
+    tags: [
+      {
+        name: "React.js",
+        color: "#006359",
+      },
+      {
+        name: "Next.js",
+        color: "#ccb291",
+      },
+      {
+        name: "MongoDB",
+        color: "#ccaebc",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "#ccaebc",
+      },
+    ],
+    image: netflix,
+    source_code_link: "https://github.com/muskanmi/netflix-clone-frontend",
+  },
+  {
+    name: "E-commerce",
+    description:
+      "An e-commerce site with an admin dashboard using NextJS 14, Shadcn UI, MongoDB, Stripe, Typescript.",
+    tags: [
+      {
+        name: "React.js",
+        color: "#006359",
+      },
+      {
+        name: "Next.js",
+        color: "#ccb291",
+      },
+      {
+        name: "MongoDB",
+        color: "#ccaebc",
+      },
+      {
+        name: "Typescript",
+        color: "#ccaebc",
+      },
+      {
+        name: "Stripe",
+        color: "#ccaebc",
+      },
+      {
+        name: "Shadcn UI",
+        color: "#ccaebc",
+      },
+    ],
+    image: netflix,
+    source_code_link: "https://github.com/muskanmi/netflix-clone-frontend",
+  },
+  {
     name: "Netflix Clone",
     description:
       "A Netflix Clone App built using React js , Material UI & TMDB API that allows searching of 1000+ movies and provides information about their plot, IMDB rating, Genre.",
@@ -232,6 +290,31 @@ const projects = [
       },
       {
         name: "MongoDB",
+        color: "#ccaebc",
+      },
+    ],
+    image: netflix,
+    source_code_link: "https://github.com/muskanmi/netflix-clone-frontend",
+  },
+  {
+    name: "Events App",
+    description:
+      "Event Organisation web app with NextJS 14, Shadcn UI, Mongoose, Clerk, Stripe, Typescript and TailwindCSS.",
+    tags: [
+      {
+        name: "React.js",
+        color: "#006359",
+      },
+      {
+        name: "Next.js",
+        color: "#ccb291",
+      },
+      {
+        name: "MongoDB",
+        color: "#ccaebc",
+      },
+      {
+        name: "Tailwind CSS",
         color: "#ccaebc",
       },
     ],
