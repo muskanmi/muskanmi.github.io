@@ -131,6 +131,18 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Associate Product Engineer",
+    company_name: "Innoage Technologies",
+    icon: w,
+    iconBg: "#383E56",
+    date: "May 2023 - Present",
+    points: [
+      "Implemented a Purchase Order Management System using MERN and .NET, deployed on Plesk servers (Windows & Ubuntu), resulting in a time saving of over several hours per week.",
+      "The application facilitated the streamlined management of purchase orders, offering functionalities for creating, tracking, and processing orders efficiently.",
+      "Participated in Code Reviews and providing support to other developers.",
+    ],
+  },
+  {
     title: "Software Developer",
     company_name: "W3villa Technologies",
     icon: w,
