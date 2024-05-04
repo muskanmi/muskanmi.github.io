@@ -53,6 +53,8 @@ import coursera from "./coursera.png";
 import javascriptCourse from "./javascriptCourse.jpg"
 import dsa from "./dsa.jpg";
 import admindash from './admindash.png'
+import ecommerce from './ecommerce.png'
+import events from './events.png'
 
 export {
   logo,
@@ -107,4 +109,6 @@ export {
   javascriptCourse,
   dsa,
   admindash,
+  ecommerce,
+  events,
 };

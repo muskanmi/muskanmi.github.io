@@ -47,6 +47,8 @@ import {
   javascriptCourse,
   dsa,
   admindash,
+  ecommerce,
+  events,
 } from "../assets";
 
 export const navLinks = [
@@ -266,14 +268,14 @@ const projects = [
       },
       {
         name: "Stripe",
-        color: "#ccaebc",
+        color: "#2398a4",
       },
       {
         name: "Shadcn UI",
         color: "#ccaebc",
       },
     ],
-    image: netflix,
+    image: ecommerce,
     source_code_link: "https://github.com/muskanmi/netflix-clone-frontend",
   },
   {
@@ -295,7 +297,7 @@ const projects = [
       },
       {
         name: "Material UI",
-        color: "#ccaebc",
+        color: "#e36722",
       },
     ],
     image: netflix,
@@ -323,7 +325,7 @@ const projects = [
         color: "#ccaebc",
       },
     ],
-    image: netflix,
+    image: events,
     source_code_link: "https://github.com/muskanmi/netflix-clone-frontend",
   },
   {
