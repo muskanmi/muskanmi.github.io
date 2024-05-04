@@ -52,6 +52,7 @@ import udemy from "./udemy.svg";
 import coursera from "./coursera.png";
 import javascriptCourse from "./javascriptCourse.jpg"
 import dsa from "./dsa.jpg";
+import admindash from './admindash.png'
 
 export {
   logo,
@@ -105,4 +106,5 @@ export {
   coursera,
   javascriptCourse,
   dsa,
+  admindash,
 };

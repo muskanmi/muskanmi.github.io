@@ -46,6 +46,7 @@ import {
   coursera,
   javascriptCourse,
   dsa,
+  admindash,
 } from "../assets";
 
 export const navLinks = [
@@ -239,7 +240,7 @@ const projects = [
         color: "#ccaebc",
       },
     ],
-    image: netflix,
+    image: admindash,
     source_code_link: "https://github.com/muskanmi/netflix-clone-frontend",
   },
   {
@@ -290,6 +291,10 @@ const projects = [
       },
       {
         name: "MongoDB",
+        color: "#ccaebc",
+      },
+      {
+        name: "Material UI",
         color: "#ccaebc",
       },
     ],
