@@ -48,6 +48,7 @@ import {
   dsa,
   admindash,
   ecommerce,
+  podcastr,
   events,
 } from "../assets";
 
@@ -166,9 +167,7 @@ const educations = [
     icon: g,
     iconBg: "#383E56",
     date: "September 2018 - May 2022",
-    points: [
-      "B.TECH (Computer Science & Engineering)"
-    ],
+    points: ["B.TECH (Computer Science & Engineering)"],
   },
   {
     title: "",
@@ -176,9 +175,7 @@ const educations = [
     icon: s,
     iconBg: "#383E56",
     date: "March 2016- August 2018",
-    points: [
-      "Higher Secondary School"
-    ],
+    points: ["Higher Secondary School"],
   },
   {
     title: "",
@@ -186,9 +183,7 @@ const educations = [
     icon: s,
     iconBg: "#383E56",
     date: "March 2014 - March 2016",
-    points: [
-      "High School"
-    ],
+    points: ["High School"],
   },
 ];
 
@@ -216,35 +211,10 @@ const testimonials = [
     image: coursera,
     url: "https://coursera.org",
     course: javascriptCourse,
-  }
+  },
 ];
 
 const projects = [
-  {
-    name: "Admin Dashboard",
-    description:
-      "A React based Admin Dashboard app using Real time Data, Charts, Events, MongoDB, CRM and more.",
-    tags: [
-      {
-        name: "React.js",
-        color: "#006359",
-      },
-      {
-        name: "Next.js",
-        color: "#ccb291",
-      },
-      {
-        name: "MongoDB",
-        color: "#ccaebc",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "#ccaebc",
-      },
-    ],
-    image: admindash,
-    source_code_link: "https://github.com/muskanmi/netflix-clone-frontend",
-  },
   {
     name: "E-commerce",
     description:
@@ -279,6 +249,56 @@ const projects = [
     source_code_link: "https://github.com/muskanmi/netflix-clone-frontend",
   },
   {
+    name: "Podcastr - AI SaaS",
+    description:
+      "Built a unique Software-as-a-Service webapp with AI-powered features using NextJS, TypeScript, Convex, OpenAI, Tailwind.",
+    tags: [
+      {
+        name: "TypeScript",
+        color: "#006359",
+      },
+      {
+        name: "Next.js",
+        color: "#ccb291",
+      },
+      {
+        name: "Convex",
+        color: "#ccaebc",
+      },
+      {
+        name: "OpenAI",
+        color: "#ccaebc",
+      },
+    ],
+    image: podcastr,
+    source_code_link: "https://github.com/muskanmi/podcastr",
+  },
+  {
+    name: "Admin Dashboard",
+    description:
+      "A React based Admin Dashboard app using Real time Data, Charts, Events, MongoDB, CRM and more.",
+    tags: [
+      {
+        name: "React.js",
+        color: "#006359",
+      },
+      {
+        name: "Next.js",
+        color: "#ccb291",
+      },
+      {
+        name: "MongoDB",
+        color: "#ccaebc",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "#ccaebc",
+      },
+    ],
+    image: admindash,
+    source_code_link: "https://github.com/muskanmi/netflix-clone-frontend",
+  },
+  {
     name: "Netflix Clone",
     description:
       "A Netflix Clone App built using React js , Material UI & TMDB API that allows searching of 1000+ movies and provides information about their plot, IMDB rating, Genre.",
@@ -301,31 +321,6 @@ const projects = [
       },
     ],
     image: netflix,
-    source_code_link: "https://github.com/muskanmi/netflix-clone-frontend",
-  },
-  {
-    name: "Events App",
-    description:
-      "Event Organisation web app with NextJS 14, Shadcn UI, Mongoose, Clerk, Stripe, Typescript and TailwindCSS.",
-    tags: [
-      {
-        name: "React.js",
-        color: "#006359",
-      },
-      {
-        name: "Next.js",
-        color: "#ccb291",
-      },
-      {
-        name: "MongoDB",
-        color: "#ccaebc",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "#ccaebc",
-      },
-    ],
-    image: events,
     source_code_link: "https://github.com/muskanmi/netflix-clone-frontend",
   },
   {
@@ -371,48 +366,6 @@ const projects = [
     source_code_link: "https://github.com/muskanmi/URL-Shortener",
   },
   {
-    name: "Pig Game",
-    description:
-      "Pig is a simple dice game. Players take turns to roll a single dice as many times as they wish, adding all roll results to a running total, but losing their gained score for the turn.",
-    tags: [
-      {
-        name: "JavaScript",
-        color: "#5c1dcc",
-      },
-      {
-        name: "HTML",
-        color: "#8b7975",
-      },
-      {
-        name: "CSS",
-        color: "#114d56",
-      },
-    ],
-    image: pig,
-    source_code_link: "https://github.com/muskanmi/Pig-Game",
-  },
-  {
-    name: "Flappy Bird Game",
-    description:
-      "Flappy Bird is a game where you tap the screen to make the bird fly. It is a game in which the player controls the bird Faby, which moves persistently to the right",
-    tags: [
-      {
-        name: "JavaScript",
-        color: "#5c1dcc",
-      },
-      {
-        name: "HTML",
-        color: "#8b7975",
-      },
-      {
-        name: "CSS",
-        color: "#114d56",
-      },
-    ],
-    image: Flappygame,
-    source_code_link: "https://github.com/muskanmi/Flappy-Bird-Game",
-  },
-  {
     name: "Bankist App",
     description:
       "Bankist WebApp is a miniature clone of a bank which implements primary tasks such as Transfer money, Request for a loan, Close an account, Check current balance.",
@@ -433,7 +386,34 @@ const projects = [
     image: bankist,
     source_code_link: "https://github.com/muskanmi/Bankist-app",
   },
-  
+  {
+    name: "Pig Game",
+    description:
+      "Pig is a simple dice game. Players take turns to roll a single dice as many times as they wish, adding all roll results to a running total, but losing their gained score for the turn.",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "#5c1dcc",
+      },
+      {
+        name: "HTML",
+        color: "#8b7975",
+      },
+      {
+        name: "CSS",
+        color: "#114d56",
+      },
+    ],
+    image: pig,
+    source_code_link: "https://github.com/muskanmi/Pig-Game",
+  },
 ];
 
-export { services, technologies, experiences, testimonials, projects, educations };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  educations,
+};

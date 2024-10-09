@@ -54,6 +54,7 @@ import javascriptCourse from "./javascriptCourse.jpg"
 import dsa from "./dsa.jpg";
 import admindash from './admindash.png'
 import ecommerce from './ecommerce.png'
+import podcastr from './podcastr.png'
 import events from './events.png'
 
 export {
@@ -110,5 +111,6 @@ export {
   dsa,
   admindash,
   ecommerce,
+  podcastr
   events,
 };
