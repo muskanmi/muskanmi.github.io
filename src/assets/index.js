@@ -111,6 +111,6 @@ export {
   dsa,
   admindash,
   ecommerce,
-  podcastr
+  podcastr,
   events,
 };
